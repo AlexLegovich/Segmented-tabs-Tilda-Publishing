@@ -4,6 +4,7 @@ Custom segmented tabs (segmented control) component designed specifically for us
 
 Developed by AG Design.
 
+
 📌 Overview
 
 This project provides a fully customizable segmented control (tab switcher) that works seamlessly inside Tilda using custom HTML blocks.
@@ -18,9 +19,6 @@ Animated slider transitions
 
 Optional content fade animation
 
-Active button styling
-
-Responsive behavior
 
 🎯 Purpose
 
@@ -36,13 +34,12 @@ Use it for navigation or content switching
 Keep everything modular and reusable
 
 ⚙️ Features
+
 1. Multiple Style Variants
 
 Each segmented control is configured via:
 
 data-segment-control="default"
-data-segment-control="news"
-
 
 Each variant can have its own:
 
@@ -62,7 +59,7 @@ Content animation behavior
 
 All styles are controlled inside:
 
-const styleConfigs = { ... }
+const segmetnsConfig = { ... }
 
 
 This allows:
@@ -157,7 +154,7 @@ Layout remains stable across breakpoints
 
 To create a new styled segmented control:
 
-Add new config inside styleConfigs
+Add new config inside segmentConfig
 
 Assign data-segment-control="yourName"
 
