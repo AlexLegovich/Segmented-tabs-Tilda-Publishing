@@ -1,0 +1,23 @@
+  // ============================================
+  // GLOBAL STYLE CONFIGURATIONS
+  // ============================================
+  const segmentConfig = {
+    default: {
+      backgroundColor: '#fff',
+      boxShadow: 'rgba(100, 100, 111, 0.2) 0px 7px 29px 0px',
+      transitionDuration: 0.2, // s for slider
+      easing: 'cubic-bezier(0.45, 0, 0.55, 1)',
+    },
+    news: {
+      backgroundColor: '#ca1616',
+      boxShadow: 'rgba(172, 47, 85, 0.2) 0px 7px 29px 0px',
+      transitionDuration: 0.1,
+      easing: 'cubic-bezier(0.45, 0, 0.55, 1)',
+    },
+    contentAnimate: {
+      isAnimation: true,
+      opacity: 0, // starting opacity for fade
+      transitionDuration: 0.2, // seconds
+      easing: 'cubic-bezier(0.45, 0, 0.55, 1)',
+    },
+  }
